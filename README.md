@@ -1,1 +1,8 @@
 # radar_signal_demodulation
+1. Consider a single isotropic antenna A located at the origin, transmitting a signal of frequency fc along with a target T at a distance d from the antenna as shown in Figure 1. Derive an expression for the received signal at the target assuming the movement of the target is negligible.
+3. Two isotropic antenna elements are now rotated with a frequency fm in a circle of radius R centered at the origin as shown in Figure 2. The two antennas are transmitting signals of frequency fc − f0 and fc + f0 respectively . Using the expres- sion obtained in 1 derive an expression for the signal received by the target. Note: you must not assume the position vectors to the two antennas from the target is parallel. You may take R << d Include all assumptions made.
+4. Now consider a third antenna located at the origin in addition to the rotating antennas, transmitting a carrier of frequency fc which is amplitude modulated by a message signal is sin(2πfmt). Using matlab/python write code to simulate above scenario and plot the signal received by the target.
+Note: All the parameters given below are of a hypothetical system.
+• fc =107Hz • f0 =960Hz • fm =30Hz • d = 200km • θ = 30◦
+4. Implement the receiver of the target and demodulate the above signal using mat- lab/python and plot the signals at each demodulation stage. Determine θ using the demodulated signal.
+5. In 3 we assumed two antennas are rotated. This rotation can be electronically simulated by a circular array of antenna elements. Taking this scenario into account write a matlab/python code to transmit the same signals as in 3. Compare the received signal by the target with that of 3. Note: Cosine blending must be utilized while transmitting. Demodulation in not required.
